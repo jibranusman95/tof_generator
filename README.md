@@ -7,5 +7,5 @@ Terms of service generator prototype algorithm
 - The `Section` and `Clause` class follow the template method design pattern where they both inherit from the same base class that contains shared functionality
 
 # How to Run Tests
-Since this is just plain Ruby and not Rails any test can be the command `ruby filepath_test.rb`. e.g `translator_test.rb`, the most important are the `Translator` tests since that is the main class that does all the heavy lifting, so the easiest way would just be to navigate to `tests/generator/translator_test.rb` via terminal and run the command `ruby translator_test.rb`
+Since this is just plain Ruby and not Rails any test can be run via the command `ruby filepath_test.rb`. e.g `translator_test.rb`, the most important are the `Translator` tests since that is the main class that does all the heavy lifting, so the easiest way would just be to navigate to `tests/generator/` directory via terminal and run the command `ruby translator_test.rb`
 `
